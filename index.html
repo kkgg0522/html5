@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: Green;
 }
 
 li {
@@ -23,7 +23,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111111;
+  background-color: red;
 }
 </style>
 </head>
@@ -39,18 +39,20 @@ li a:hover {
   <li><a href="#about">About</a></li>
 </ul>
 
-        <h2>External Paths</h2>
-        <p>This example links to a page located in the 
-           same folder as the current page:</p>
-        <p><a href="html/first.html">first.html로 이동</a></p>  
+<h2>External Paths</h2>
 
-        <h2>Iframe - Target for a Link</h2>
+<p>This example links to a page located in the same folder as the current page:</p>
 
-    <iframe src="html/0401.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+<p><a href="html/first.html">first.html로 이동하기</a></p>
 
-    <p><a href="https://www.chungwoon.ac.kr" target="iframe_a">chungwoon.ac.kr</a></p>
 
-    <p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
-    </body>
-    </html>
-    
+<h2>Iframe - Target for a Link</h2>
+
+<iframe src="html/0401.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+<p><a href="http://www.chungwoon.ac.kr" target="iframe_a">청운대학교</a></p>
+
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+
+</body>
+</html>
